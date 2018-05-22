@@ -1,5 +1,9 @@
 grammar Grammar;
 
+@header {
+package Grammar;
+}
+
 /*Parser Rules*/
 
 program : (query | command)*;
